@@ -1,0 +1,142 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    margin: 3rem 0;   
+}
+
+input{
+    box-shadow: 0px 0px 5px #b47cde;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    outline: unset;
+    border: 1px solid #b47cde;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px 10px 50px;
+}
+
+.containerInput{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:center; 
+    max-width: 50rem;
+    margin: auto;   
+}
+.searchIcon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    bottom: 50%;
+    color: rgb(58, 58, 58);
+    transform: translate(50%, 50%);
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    column-gap: 3rem;    
+    margin: 1rem 0;
+    
+}
+
+button{
+    padding: 1rem 2rem;
+    background: rgba(219, 198, 218, 0.8);
+    color: rgb(108 68 105);
+    border:1px solid #b47cde;
+    font-size: 1.5rem;
+    border-radius:5px;
+}
+
+button:hover{
+    color:rgb(78, 43, 75);
+    text-shadow: 0px 0px 5px #b47cde;
+    box-shadow: 0px 0px 5px #b47cde;
+}
+button:active {
+    background-color: rgba(245, 198, 239, 0.667);
+}
+
+.tittle{
+    margin-left: 2rem;
+}
+
+.dFlexCard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    border-top: 1px solid rgba(0,0,0,.137254902);
+}
+img{
+    width: 60%;
+    max-height: 9rem;
+}
+.flag{
+    max-width: 15rem;
+    margin-right: -1rem;
+}
+.container{
+    margin:2rem;
+}
+
+.containerCountries{
+    display: flex;
+    background-color: #fff;
+    border:2px solid #b47cde;
+    border-radius: 6px;
+    padding: 1vh 1.5vw 2vh;
+    width: 25rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.containerCountries:hover{
+    box-shadow: 0px 0px 5px #b47cde;
+}
+
+.containALL{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    width: 25rem;
+    align-items: center;
+}
+
+.countrieName{
+    font-weight: 600;
+    
+}
+.countrieData{
+    width: 12rem;
+    margin-left: -1rem;
+}
+
+.dflex{
+    display: flex;
+    margin: 0.2rem 0 0.5rem -3rem;
+}
+
+.currency{
+    font-size:12px;
+}
+
