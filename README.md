@@ -1,7 +1,7 @@
 # Desafío para Software Engineers
 
 ### Nombre postulante: Melisa Scime
-### Link a la app en producción: [LINK DEL DEPLOY]
+### Link a la app en producción: [LINK](https://kimchechallengemeli.herokuapp.com/)
 
 ## Pregunta
 
